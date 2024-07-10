@@ -1,0 +1,114 @@
+ 
+.cartcard {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.cart_img img {
+    height: 150px;
+}
+
+.cart_tittle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cart_description {
+    font-size: 18px;
+}
+
+.crossicon {
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cartpage_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartpage_btn button {
+    border: 0;
+    outline: 0;
+    background-color: #FF6004;
+    color: #fff;
+    cursor: pointer;
+    height: 45px;
+    width: 120px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.cartpage_btn button:hover {
+    background-color: #103CE7;
+}
+
+.continue_btn {
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #FF6004;
+    color: #fff;
+
+}
+
+.continue_btn:hover {
+    background-color: #103CE7;
+    color: #fff;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricedetail_card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.place_order {
+    width: 100%;
+    height: 42px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: #FF6004;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.place_order:hover {
+    background-color: #103CE7;
+}
+
+.pricedetail {
+    font-weight: 500;
+}
+
+.Total_Amount {
+    font-weight: 500;
+}
+
+.Convenience {
+    border-bottom: 1px solid black;
+}
+
+.Total_Amount p {
+    font-weight: 500;
+}
+.return_product span{
+    font-weight: 500;
+}
+.delviry_date span{
+    font-weight: 500;
+}
