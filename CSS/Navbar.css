@@ -28,8 +28,15 @@ p {
     align-items: center;
 }
 
-.logo img {
-    height: 40px;
+
+
+.logo{
+    text-decoration: none;
+}
+.logo h1{
+    font-weight: 600;
+    color: #FF6004;
+    font-size: 40px;
 }
 
 .search input {

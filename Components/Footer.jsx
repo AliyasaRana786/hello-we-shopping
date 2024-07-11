@@ -6,7 +6,8 @@ export default function Footer(){
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-12  ">
                          <div className="footer_logo mb-4">
-                            <img className='img-fluid' src="../Images/logo.svg" alt="" />
+                          
+                            <h1>Seoland</h1>
                          </div>
                          <div className="footer_logo_para mb-4">
                             <p>Seoland ECommerce website is an online platform where businesses sell products or services, enabling customers to browse, purchase, and pay securely via the internet.</p>

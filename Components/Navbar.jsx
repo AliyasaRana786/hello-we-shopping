@@ -28,7 +28,8 @@ const handleclick=(category)=>{
                     <div className="header p-4">
 
                         <Link to={'/'} className="logo">
-                            <a href="#"><img src="../Images/logo.svg" alt="" /></a>
+                        <h1>Seoland</h1>
+                          
                         </Link>
 
                         <div className="search">
