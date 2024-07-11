@@ -24,7 +24,7 @@ export default function Cart({ cart, setCart }) {
                                     <div className="cartcard mt-5">
     
                                         <div className="cart_img">
-                                            <img className='img-fluid' src={product.imgSrc} alt="" />
+                                            <img  src={product.imgSrc} alt="" />
                                         </div>
     
                                         <div className="cartcarddeatails mx-4">

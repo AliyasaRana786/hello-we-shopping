@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 h1,
 h2,
 h3,
@@ -18,11 +19,14 @@ p {
 }
 
 .navbars {
+    background-color: #F8F9FA;
     width: 100%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .header {
+    width: 100%;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -30,10 +34,11 @@ p {
 
 
 
-.logo{
+.logo {
     text-decoration: none;
 }
-.logo h1{
+
+.logo h1 {
     font-weight: 600;
     color: #FF6004;
     font-size: 40px;
@@ -46,7 +51,7 @@ p {
     outline: 0;
     border-radius: 8px;
     padding-left: 5px;
-    
+
 }
 
 .icon {
@@ -69,36 +74,42 @@ p {
 }
 
 .productfilter {
+
+
     width: 100%;
     background-color: #000229;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.productfilter span {
+.productfilter p {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     border: 1px solid #FF6004;
-    padding: 5px 10px;
+    padding: 3px 8px;
+
     border-radius: 5px;
 }
 
-.productfilter span:hover {
+.productfilter p:hover {
     color: #FF6004;
 }
-.cartlength{
+
+.cartlength {
     margin-top: -9px;
-    
+
 }
+
 a {
     color: black;
-  
+
 }
-a:hover{
+
+a:hover {
     color: #000;
 }
- 
+
 @media only screen and (max-width: 600px) {
     .header {
         grid-template-columns: auto auto;
@@ -111,9 +122,13 @@ a:hover{
         padding-top: 15px;
         grid-column: 1/span 2;
     }
-    .search input{
+
+    .search input {
         width: 95%;
     }
 
+    .cartcarddeatails {
+        width: 100%;
+    }
 
 }
