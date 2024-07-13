@@ -15,13 +15,13 @@ export default function Cart({ cart, setCart }) {
                     <Link to={'/'} className='btn continue_btn'>Continue</Link>
                 </div>
             ):(
-                <section className='container'>
+                <section className='container add_cart_card'>
                 {cart.map((product) => {
                     return (
                         <>
                             <div className="row">
                                 <div className="col-lg-6 col-md-12 col-12">
-                                    <div className="cartcard mt-5">
+                                    <div className="cartcard">
     
                                         <div className="cart_img">
                                             <img  src={product.imgSrc} alt="" />

@@ -35,7 +35,7 @@ export default function Productdetailspage({cart, setCart}) {
         <>
  
             <section className='container'>
-                <div className="productdetails_page mt-5 align-items-center">
+                <div className="productdetails_page align-items-center">
                     <div className="row">
 
 

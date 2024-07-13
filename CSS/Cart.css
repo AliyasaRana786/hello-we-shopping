@@ -4,8 +4,14 @@
     justify-content: space-evenly;
     padding: 20px 0;
     border-radius: 10px;
-    padding: 5px 10px 5px 5px;
+    padding: 10px 20px 5px 5px;
+    margin-bottom: 15px;
 }
+
+.add_cart_card{
+    margin-top: 150px;
+}
+ 
 
 .cart_img img {
     height: 150px;
@@ -55,7 +61,7 @@
     font-weight: 500;
     background-color: #FF6004;
     color: #fff;
-
+margin-top: 100px;
 }
 
 .continue_btn:hover {
@@ -143,5 +149,11 @@
     .delviry_date{
         font-size: 15px;
     }
-
+    
+.add_cart_card{
+    margin-top: 180px;
+}
+.continue_btn{
+    margin-top: 150px;
+}
 }

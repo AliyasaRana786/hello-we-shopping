@@ -1,0 +1,8 @@
+.searchitem{
+    margin-top: 100px;
+}
+@media only screen and (max-width: 600px) {
+    .searchitem{
+        margin-top: 150px;
+    }
+}
