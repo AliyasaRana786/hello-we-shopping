@@ -14,7 +14,7 @@ export default function Footer(){
                          </div>
                          <div className="footer_bar_btn mt-5">
                             <input type="text"  placeholder='your Email Address'/>
-                            <button>Subscribe now</button>
+                            <button>Subscribe</button>
                          </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 mt-4 ">
